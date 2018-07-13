@@ -1,0 +1,24 @@
+从本地更新到远程：
+git add 文件名
+git commit -m ""
+git push origin
+
+
+从远程更新数据到本地：
+git fetch origin master
+git pull
+
+
+JavaClient（Appium Client)
+Appium Server
+Android-sdk各个文件作用
+
+Maven
+
+Git
+
+Jenkins
+
+
+
+
