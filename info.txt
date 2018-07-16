@@ -20,5 +20,25 @@ Git
 Jenkins
 
 
+下载：https://www.seleniumhq.org/download/
+selenium-java-3.9.1.zip
+selenium-server-3.9.1.zip
+selenium-server-standalone-3.9.1.jar
+
+
+下载Java-Client：https://search.maven.org/
+
+
+selenium、appium用的是同一个java-client？
+
+Appium-desktop、Appium-Server
+
+
+# ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.
+# USE 'android update adb' TO GENERATE.
+# 1 USB VENDOR ID PER LINE.
+
+
+
 
 
