@@ -48,4 +48,16 @@ C:\Users\youruixiang\.android\adb_usb.ini 设备信息
 
 
 
+Selenium-Client=Java-Client=Appium-Client?
+Appium Server、Appium-desktop作用相同，先有Appium Server，后Appium-desktop，前者不再更新。
 
+
+下载：https://www.seleniumhq.org/download/
+selenium-java-3.9.1.zip（没用？）
+selenium-server-3.9.1.zip（没用？）
+selenium-server-standalone-3.9.1.jar
+
+
+selenium、appium用的是同一个java-client？
+
+WebDriver
