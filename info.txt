@@ -27,6 +27,7 @@ selenium-server-standalone-3.9.1.jar
 
 
 下载Java-Client：https://search.maven.org/
+java-client-5.0.4.jar
 
 
 selenium、appium用的是同一个java-client？
