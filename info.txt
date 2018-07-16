@@ -35,10 +35,16 @@ selenium、appium用的是同一个java-client？
 Appium-desktop、Appium-Server
 
 
+1、
+C:\Users\youruixiang\.android\adb_usb.ini 设备信息
 # ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.
 # USE 'android update adb' TO GENERATE.
 # 1 USB VENDOR ID PER LINE.
 
+
+2、更换 selenium-java，并重试程序
+
+3、了解各个jar的作用、区别
 
 
 
