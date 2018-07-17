@@ -35,20 +35,12 @@ selenium、appium用的是同一个java-client？
 Appium-desktop、Appium-Server
 
 
-1、
-C:\Users\youruixiang\.android\adb_usb.ini 设备信息
-# ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.
-# USE 'android update adb' TO GENERATE.
-# 1 USB VENDOR ID PER LINE.
 
 
-2、更换 selenium-java，并重试程序
+Selenium-Client=Java-Client=Appium-Client?，与WebDriver关系----【×】
+https://github.com/appium/appium/blob/master/docs/en/about-appium/getting-started.md，we have a set of Appium clients in a variety of programming languages, that extend the regular old Selenium clients with additional functionality
+https://github.com/appium/appium/blob/master/docs/en/about-appium/appium-clients.md
 
-3、了解各个jar的作用、区别
-
-
-
-Selenium-Client=Java-Client=Appium-Client?
 Appium Server、Appium-desktop作用相同，先有Appium Server，后Appium-desktop，前者不再更新。
 
 
@@ -61,3 +53,43 @@ selenium-server-standalone-3.9.1.jar
 selenium、appium用的是同一个java-client？
 
 WebDriver
+
+
+2018.7.17
+1、解决定位错误元素问题
+2、解决电脑连接手机失败问题
+
+
+问题：
+github上面的java-client可以用吗？
+Desired Capabilities中的automationName为必输项？
+如何设置加载时间？
+
+待查阅：
+Appium Desired Capabilities：https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+a fuller introduction to Appium concepts：https://github.com/appium/appium/blob/master/docs/en/about-appium/intro.md
+
+知识点：
+USING NON BROWSER SPECIFIC JAR：
+More often than not you would need to run tests on more than one browser. Hence you would use selenium-java Maven dependency in your project. The selenium-java JAR contains the language bindings and the drivers but not the server side piece.
+
+USING STANDALONE JAR：
+If you plan to use Selenium Grid then you should download selenium-server-standalone JAR file. Selenium-server-standalone jar is never uploaded, but all the components are available via selenium-server. The standalone JAR contains everything, including the remote Selenium server and the client-side bindings. This means that if you use the selenium-server-standalone jar in your project, then you don't have to add selenium-java or a browser specific jar.
+
+
+
+
+
+
+
+2018.7.16
+1、
+C:\Users\youruixiang\.android\adb_usb.ini 设备信息
+# ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.
+# USE 'android update adb' TO GENERATE.
+# 1 USB VENDOR ID PER LINE.
+
+
+2、更换 selenium-java，并重试程序
+
+3、了解各个jar的作用、区别
