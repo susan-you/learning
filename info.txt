@@ -1,12 +1,18 @@
 从本地更新到远程：
 git add 文件名
 git commit -m ""
-git push origin
+git push origin master
 
 
 从远程更新数据到本地：
 git fetch origin master
 git pull
+
+
+删除文件：
+git rm 文件名
+git commit -m
+git push origin master
 
 
 JavaClient（Appium Client)
@@ -55,31 +61,77 @@ selenium、appium用的是同一个java-client？
 WebDriver
 
 
-2018.7.17
-1、解决定位错误元素问题
-2、解决电脑连接手机失败问题
 
 
-问题：
+
+
+待处理问题：
 github上面的java-client可以用吗？
 Desired Capabilities中的automationName为必输项？
 如何设置加载时间？
+Jenkins各个配置项的含义？
+eclipse各个菜单含义？（例如maven项）
+git命令汇总
+jar包和war包的区别：https://www.cnblogs.com/wenzheshen/articles/6307696.html
 
 待查阅：
 Appium Desired Capabilities：https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
 a fuller introduction to Appium concepts：https://github.com/appium/appium/blob/master/docs/en/about-appium/intro.md
+Mobile Test Automation with Appium：https://www.packtpub.com/application-development/mobile-test-automation-appium
+
 
 知识点：
 USING NON BROWSER SPECIFIC JAR：
-More often than not you would need to run tests on more than one browser. Hence you would use selenium-java Maven dependency in your project. The selenium-java JAR contains the language bindings and the drivers but not the server side piece.
+More often than not you would need to run tests on more than one browser. Hence you would use selenium-java Maven dependency in your project. 
+The selenium-java JAR contains the language bindings and the drivers but not the server side piece.
+selenium-java=java-client+webdriver?
+
 
 USING STANDALONE JAR：
-If you plan to use Selenium Grid then you should download selenium-server-standalone JAR file. Selenium-server-standalone jar is never uploaded, but all the components are available via selenium-server. The standalone JAR contains everything, including the remote Selenium server and the client-side bindings. This means that if you use the selenium-server-standalone jar in your project, then you don't have to add selenium-java or a browser specific jar.
+If you plan to use Selenium Grid then you should download selenium-server-standalone JAR file. Selenium-server-standalone jar is never uploaded, but all the components are available via selenium-server. 
+The standalone JAR contains everything, including the remote Selenium server and the client-side bindings. 
+This means that if you use the selenium-server-standalone jar in your project, then you don't have to add selenium-java or a browser specific jar.
+
+selenium-server-standalone 包含 selenium-java？
 
 
 
 
 
+
+
+
+
+安装Tomcat
+下载地址：http://tomcat.apache.org/
+解压路径：E:\工作软件\Tomcat\apache-tomcat-9.0.10
+
+
+安装Jenkins
+下载路径：https://jenkins.io/
+解锁jenkins：为了确保管理员安全地安装jenkins，密码已写入到日志中（不知道在哪里？）该文件在服务器上：E:\工作软件\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins\secrets\initialAdminPassword
+安装路径：E:\工作软件\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins
+验证是否安装成功：http://localhost:8080/
+账户信息： admin   123456     3533009205@qq.com
+安装插件Maven Integration plugin或Pipeline Maven Integration Plugin，用于创建maven项目
+Jenkins全局工具配置：
+JDK安装路径：C:\Program Files\Java\jdk1.8.0_171
+GIT安装路径：C:\Program Files\Git
+Maven路径：E:\工作软件\Maven\apache-maven-3.5.4
+
+系统管理->系统设置：
+
+
+
+
+ant?
+
+
+
+日报：
+2018.7.17、2018.7.18
+1、解决定位错误元素问题
+2、解决电脑连接手机失败问题
 
 
 2018.7.16
@@ -88,8 +140,19 @@ C:\Users\youruixiang\.android\adb_usb.ini 设备信息
 # ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.
 # USE 'android update adb' TO GENERATE.
 # 1 USB VENDOR ID PER LINE.
-
-
 2、更换 selenium-java，并重试程序
-
 3、了解各个jar的作用、区别
+
+
+
+英语：
+汇丰
+git
+jenkins
+java
+maven
+appium
+selenium
+
+
+
