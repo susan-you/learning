@@ -14,6 +14,12 @@ git rm 文件名
 git commit -m
 git push origin master
 
+上传整个文件：
+进入到文件夹路径下
+git add .
+git commit -m ""
+git push origin master
+
 
 JavaClient（Appium Client)
 Appium Server
@@ -70,9 +76,11 @@ github上面的java-client可以用吗？
 Desired Capabilities中的automationName为必输项？
 如何设置加载时间？
 Jenkins各个配置项的含义？
+jenkins，创建项目-源代码-选择git时，Repository URL要填写什么？--------从git的角度考虑？
 eclipse各个菜单含义？（例如maven项）
 git命令汇总
 jar包和war包的区别：https://www.cnblogs.com/wenzheshen/articles/6307696.html
+
 
 待查阅：
 Appium Desired Capabilities：https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
@@ -113,13 +121,13 @@ selenium-server-standalone 包含 selenium-java？
 安装路径：E:\工作软件\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins
 验证是否安装成功：http://localhost:8080/
 账户信息： admin   123456     3533009205@qq.com
-安装插件Maven Integration plugin或Pipeline Maven Integration Plugin，用于创建maven项目
+安装插件Maven Integration plugin或Pipeline Maven Integration Plugin，用于创建maven项目（安装报错”Maven Integration plugin version 3.1.2 javadoc v1.0 is missing. To fix, install v1.0 or later.”）
 Jenkins全局工具配置：
 JDK安装路径：C:\Program Files\Java\jdk1.8.0_171
-GIT安装路径：C:\Program Files\Git
+GIT安装路径：C:\Program Files\Git\bin\git.exe-------------为什么要填到git.exe,git.exe作用?
 Maven路径：E:\工作软件\Maven\apache-maven-3.5.4
 
-系统管理->系统设置：
+“Failed to connect to repository : Error performing command: C:\Program Files\Git\cmd ls-remote -h https://github.com/susan-you/DSKJ.git/ HEAD”
 
 
 
@@ -128,7 +136,28 @@ ant?
 
 
 
+英语：
+汇丰
+git
+jenkins
+java
+maven
+appium
+selenium
+
+
+8月份计划
+测试框架
+
 日报：
+2018.7.25
+英语：晨读、早课、复习晨读、复习早课、小作文
+jenkins：maven项目创建
+测试框架构想
+总结
+
+
+
 2018.7.17、2018.7.18
 1、解决定位错误元素问题
 2、解决电脑连接手机失败问题
@@ -144,15 +173,6 @@ C:\Users\youruixiang\.android\adb_usb.ini 设备信息
 3、了解各个jar的作用、区别
 
 
-
-英语：
-汇丰
-git
-jenkins
-java
-maven
-appium
-selenium
 
 
 
