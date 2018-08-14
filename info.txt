@@ -158,10 +158,18 @@ path：%MAVEN_HOME%\bin
 
 计算机专业：
 development, test, and production environment
+ main feature 主要特点/特征
+Prerequisite先决条件
+platform
 （hard）drive space
+Browse to+网址
+version control 
+ repository
  CLI：command-line interface,命令行界面
 （Web）Browser compatibility：浏览器兼容性
 CI/CD持续集成/持续部署
+Build integration构建集成
+gradle？
 
 top left左上角
 
