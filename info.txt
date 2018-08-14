@@ -80,6 +80,10 @@ jenkins£¬´´½¨ÏîÄ¿-Ô´´úÂë-Ñ¡ÔñgitÊ±£¬Repository URLÒªÌîĞ´Ê²Ã´£¿--------´ÓgitµÄ½Ç¶
 eclipse¸÷¸ö²Ëµ¥º¬Òå£¿£¨ÀıÈçmavenÏî£©
 gitÃüÁî»ã×Ü
 jar°üºÍwar°üµÄÇø±ğ£ºhttps://www.cnblogs.com/wenzheshen/articles/6307696.html
+eclispe bs/csÏîÄ¿Çø±ğ
+jenkinsÖĞµÄRoot POMÈçºÎÌîĞ´£¿
+ĞèÇó·ÖÎö
+
 
 
 ´ı²éÔÄ£º
@@ -112,22 +116,54 @@ selenium-server-standalone °üº¬ selenium-java£¿
 
 °²×°Tomcat
 ÏÂÔØµØÖ·£ºhttp://tomcat.apache.org/
-½âÑ¹Â·¾¶£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10
+½âÑ¹Â·¾¶£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10----------¸ÄÎªE:\Software for work\apache-tomcat-9.0.10
 
 
 °²×°Jenkins
 ÏÂÔØÂ·¾¶£ºhttps://jenkins.io/
-½âËøjenkins£ºÎªÁËÈ·±£¹ÜÀíÔ±°²È«µØ°²×°jenkins£¬ÃÜÂëÒÑĞ´Èëµ½ÈÕÖ¾ÖĞ£¨²»ÖªµÀÔÚÄÄÀï£¿£©¸ÃÎÄ¼şÔÚ·şÎñÆ÷ÉÏ£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins\secrets\initialAdminPassword
-°²×°Â·¾¶£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins
+°²×°Â·¾¶£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins  --------------¸ÄÎªE:\Software for work\apache-tomcat-9.0.10\webapps\Jenkins
 ÑéÖ¤ÊÇ·ñ°²×°³É¹¦£ºhttp://localhost:8080/
+½âËøjenkins£ºÎªÁËÈ·±£¹ÜÀíÔ±°²È«µØ°²×°jenkins£¬ÃÜÂëÒÑĞ´Èëµ½ÈÕÖ¾ÖĞ£¨²»ÖªµÀÔÚÄÄÀï£¿£©¸ÃÎÄ¼şÔÚ·şÎñÆ÷ÉÏ£ºE:\¹¤×÷Èí¼ş\Tomcat\apache-tomcat-9.0.10\webapps\Jenkins\secrets\initialAdminPassword -------------¸ÄÎªE:\Software for work\apache-tomcat-9.0.10\webapps\Jenkins\secrets\initialAdminPassword
 ÕË»§ĞÅÏ¢£º admin   123456     3533009205@qq.com
 °²×°²å¼şMaven Integration plugin»òPipeline Maven Integration Plugin£¬ÓÃÓÚ´´½¨mavenÏîÄ¿£¨°²×°±¨´í¡±Maven Integration plugin version 3.1.2 javadoc v1.0 is missing. To fix, install v1.0 or later.¡±£©
 JenkinsÈ«¾Ö¹¤¾ßÅäÖÃ£º
 JDK°²×°Â·¾¶£ºC:\Program Files\Java\jdk1.8.0_171
 GIT°²×°Â·¾¶£ºC:\Program Files\Git\bin\git.exe-------------ÎªÊ²Ã´ÒªÌîµ½git.exe,git.exe×÷ÓÃ?
-MavenÂ·¾¶£ºE:\¹¤×÷Èí¼ş\Maven\apache-maven-3.5.4
+MavenÂ·¾¶£ºE:\¹¤×÷Èí¼ş\Maven\apache-maven-3.5.4------------ÖØĞÂ°²×°maven£¬Â·¾¶¸ÄÎªE:\Software for work\Maven\apache-maven-3.5.4
 
+Repository URL :https://github.com/susan-you/DSKJ.git
+Root POM:ÌîĞ´ÄãÏîÄ¿µÄpom.xmlÎÄ¼şµÄÎ»ÖÃ£¬×¢Òâ£ºÊÇÏà¶ÔÎ»ÖÃ£¬Èç¹û¸ÃÎÄ¼ş²»´æÔÚ£¬»áÓĞºìÉ«×ÖÌáÊ¾¡£
+£¨Ïà¶ÔÂ·¾¶£º\pom.xml ¾ø¶ÔÂ·¾¶E:\Software for work\apache-tomcat-9.0.10\webapps\Jenkins\workspace\maventest£©
 ¡°Failed to connect to repository : Error performing command: C:\Program Files\Git\cmd ls-remote -h https://github.com/susan-you/DSKJ.git/ HEAD¡±
+
+
+1¡¢¹Ø±ÕJenkins
+     Ö»ĞèÒªÔÚ·ÃÎÊjenkins·şÎñÆ÷µÄÍøÖ·urlµØÖ·ºó¼ÓÉÏexit¡£ÀıÈçÎÒjenkinsµÄµØÖ·http://localhost:8080/£¬ÄÇÃ´ÎÒÖ»ĞèÒªÔÚä¯ÀÀÆ÷µØÖ·À¸ÉÏÇÃÏÂhttp://localhost:8080/exit ÍøÖ·¾ÍÄÜ¹Ø±Õjenkins·şÎñ.
+2¡¢ÖØÆôJenkies
+    http://localhost:8080/restart
+3¡¢ÖØĞÂ¼ÓÔØÅäÖÃĞÅÏ¢
+    http://localhost:8080/reload
+
+
+
+Maven
+ÏÂÔØ:http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip
+½âÑ¹£ºE:\¹¤×÷Èí¼ş\Maven\apache-maven-3.5.4-------------¸ÄÎªE:\Software for work\Maven\apache-maven-3.5.4
+ÅäÖÃ»·¾³±äÁ¿£º
+MAVEN_HOME:E:\¹¤×÷Èí¼ş\Maven\apache-maven-3.5.4-------------¸ÄÎªE:\Software for work\Maven\apache-maven-3.5.4
+path£º%MAVEN_HOME%\bin
+ÑéÖ¤ÊÇ·ñ°²×°³É¹¦£ºmvn -version
+
+
+
+¼ÆËã»ú×¨Òµ£º
+development, test, and production environment
+£¨hard£©drive space
+ CLI£ºcommand-line interface,ÃüÁîĞĞ½çÃæ
+£¨Web£©Browser compatibility£ºä¯ÀÀÆ÷¼æÈİĞÔ
+CI/CD³ÖĞø¼¯³É/³ÖĞø²¿Êğ
+
+top left×óÉÏ½Ç
 
 
 
