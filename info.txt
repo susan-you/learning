@@ -157,7 +157,7 @@ path：%MAVEN_HOME%\bin
 
 
 计算机专业：
-development, test, and production environment
+development, test, and production environment 开发、测试、生产环境
  main feature 主要特点/特征
 Prerequisite先决条件
 platform
@@ -168,14 +168,19 @@ version control
  CLI：command-line interface,命令行界面
 （Web）Browser compatibility：浏览器兼容性
 CI/CD持续集成/持续部署
+Continuous Integration (CI) / Continuous Delivery (CD) 
+
 Build integration构建集成
 gradle？
 
+build, test and deploy applications创建、测试、部署程序
+continuous deployment持续部署
+deployment environment部署环境
+automatically-generated password 自动生成密码
+built artifacts？
+
+
 top left左上角
-
-
-
-
 ant?
 
 
