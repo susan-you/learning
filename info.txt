@@ -186,6 +186,8 @@ Supported Platforms
 mobile web and desktop apps
 built-in mobile web 
 
+distributed revision control system分布式版本控制系统
+Reference Manual参考手册
 
 
 top left左上角
