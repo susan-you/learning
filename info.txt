@@ -1,3 +1,7 @@
+introduce yourself to Git with your name andpublic email address before doing any operation：
+git config --global user.name "Your Name Comes Here"
+git config --global user.email you@yourdomain.example.com
+
 从本地更新到远程：
 git add 文件名
 git commit -m ""
@@ -19,6 +23,29 @@ git push origin master
 git add .
 git commit -m ""
 git push origin master
+
+查看日志：
+git log
+
+To create a new branch named "experimental"：
+git branch experimental
+
+get a list of all existing branches:
+git branch
+
+to switch to the experimental branch：
+git checkout experimental
+
+To merge the changes made in experimental into master：
+git merge experimental
+
+show a nice graphical representation of the resulting histor：
+gitk
+
+delete the branch：
+git branch -D branchname
+
+git commit -a=git add file + git commit -m “”
 
 
 JavaClient（Appium Client)
@@ -188,6 +215,9 @@ built-in mobile web
 
 distributed revision control system分布式版本控制系统
 Reference Manual参考手册
+further adjustment 进一步调整
+thorough description 详细描述
+problematic files 有问题的文件
 
 
 top left左上角
